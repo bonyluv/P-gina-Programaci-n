@@ -1,14 +1,12 @@
-/* ==================== ESTILOS GENERALES ==================== */
 body {
     font-family: 'Poppins', system-ui, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff0f5; /* fondo rosa pastel */
+    background-color: #fff0f5;
     color: #333;
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background: linear-gradient(135deg, #f8a5c2, #f7b7d1);
     color: #2c3e50;
@@ -23,7 +21,6 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Secciones */
 section {
     max-width: 900px;
     margin: 40px auto;
@@ -33,7 +30,6 @@ section {
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
-/* Títulos */
 h2 {
     color: #e91e63;
     font-size: 2rem;
@@ -48,7 +44,6 @@ h3 {
     margin: 30px 0 15px;
 }
 
-/* Lista */
 ul {
     list-style: none;
     padding: 0;
@@ -69,7 +64,6 @@ ul li:hover {
     background: #ffe4ec;
 }
 
-/* Imágenes */
 img {
     max-width: 100%;
     border-radius: 15px;
@@ -78,13 +72,4 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-/* Footer (opcional) */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #fff0f5;
-    color: #e91e63;
-    font-size: 1rem;
 }
